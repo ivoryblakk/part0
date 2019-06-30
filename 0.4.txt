@@ -1,0 +1,28 @@
+title Posting a New note
+
+
+note right of User: User makes a new note and submits
+
+User -> Browser: Submit form
+
+Browser -> Server: HTTP POST https://fullstack-exampleapp.herokuapp.com/new_note
+
+Browser -> Server: HTTP GET https://fullstack-exampleapp.herokuapp.com/notes
+
+Server --> Browser: HTML
+
+Browser -> Server: HTTP GET https://fullstack-exampleapp.herokuapp.com/main.css
+
+Server --> Browser: main.css
+
+Browser -> Server: HTTP GET https://fullstack-exampleapp.herokuapp.com/main.js
+
+Server --> Browser: main.js
+
+Browser -> Server: HTTP GET  https://fullstack-exampleapp.herokuapp.com/data.json
+
+Server --> Browser: data
+
+note right of User: Browser Renders page
+
+Browser --> User: User waits for Browers to write page

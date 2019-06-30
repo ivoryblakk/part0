@@ -1,0 +1,9 @@
+title New note from SPA
+
+
+note right of User: User makes a new note and clicks save
+User -> Browser: Submit form
+
+Browser -> Server: HTTP POST https://fullstack-exampleapp.herokuapp.com/new_note_spa
+
+note right of Browser: Sends json file
