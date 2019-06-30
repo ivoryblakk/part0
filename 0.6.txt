@@ -6,4 +6,8 @@ User -> Browser: Submit form
 
 Browser -> Server: HTTP POST https://fullstack-exampleapp.herokuapp.com/new_note_spa
 
-note right of Browser: Sends json file
+note right of Browser: 
+The new note is redrawn on the screen
+without doing a HTTP get from https://fullstack-exampleapp.herokuapp.com/spa
+Sends json file
+end note
